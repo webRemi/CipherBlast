@@ -1,1 +1,1 @@
-# CipherBlast
+# CipherBlastSimple xor cryptor tool
