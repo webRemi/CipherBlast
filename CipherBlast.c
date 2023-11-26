@@ -7,9 +7,9 @@
 #include <stdlib.h>
 #define MAX_KEY 100
 
-void obf_word(char *word, int key);
-void deobf_word(char *word);
-void help_menu(char *name);
+void obf_word(char *word, int key); // crypt word using xor and key given by user by manual method
+void deobf_word(char *word); // decrypt xoreded word using key in range (1 -> 100) by brute force
+void help_menu(char *name); // display help menu
 
 int main(int argc, char *argv[]) {
     printf(
