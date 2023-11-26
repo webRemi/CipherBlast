@@ -56,7 +56,7 @@ void deobf_word(char *word) {
         for (int j = 0; j < size; j++) {
             word[j] ^= i;
         }
-        printf("|> Key [%03d] <||> Possible word: %sizes\n", i, word);
+        printf("|> Key [%03d] <||> Possible word: %s\n", i, word);
         strcpy(word, unchanged[i - 1]);
     }
 }
